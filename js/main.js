@@ -18,7 +18,7 @@ const app = Vue.createApp({
                     break;
                 case '4': return`background: linear-gradient(to bottom, ${this.fcolor},${this.scolor});`;
                     break;
-                default: `background: linear-gradient(to right, ${this.fcolor},${this.scolor});`;
+                default: `background: linear-gradient(to right, ${this.fcolor},${this.scolor});`;;
             }
           
             
